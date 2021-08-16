@@ -1,5 +1,12 @@
 import Head from "next/head";
-import { Banner, Header, SmallCard, MedCard, LargeCard } from "../components";
+import {
+  Banner,
+  Header,
+  SmallCard,
+  MedCard,
+  LargeCard,
+  Footer,
+} from "../components";
 
 export default function Home({ exploreData, cardData }) {
   return (
@@ -45,6 +52,8 @@ export default function Home({ exploreData, cardData }) {
           description="Wishlists curated by PearBNB"
         />
       </main>
+
+      <Footer />
     </div>
   );
 }
