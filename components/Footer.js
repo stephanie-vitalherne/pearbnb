@@ -30,7 +30,7 @@ function Footer() {
         <p>React.js</p>
         <p>Next.js</p>
         <p>TailwindCSS</p>
-        <p>Maps</p>
+        <p>Mapbox API</p>
         <p>API Retrieval</p>
       </div>
     </div>

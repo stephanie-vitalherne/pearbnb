@@ -1,5 +1,5 @@
 import { format } from "date-fns";
-import { Header, Footer, InfoCard } from "../components";
+import { Header, Footer, InfoCard, Map } from "../components";
 import { useRouter } from "next/dist/client/router";
 
 function Search({ searchResults }) {
@@ -44,6 +44,9 @@ function Search({ searchResults }) {
               )
             )}
           </div>
+        </section>
+        <section className="hidden xl:inline-flex xl:min-w-[600px]">
+          <Map searchResults={searchResults} />
         </section>
       </main>
       <Footer />
